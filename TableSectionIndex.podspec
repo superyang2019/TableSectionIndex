@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/superyang2019/TableSectionIndex.git", :tag => s.version }
 
-  spec.source_files  = "Sources/TableSectionIndex/**/*.{h,m}"
+  s.source_files  = "Sources/TableSectionIndex/**/*.{h,m,swift}"
 
   s.framework  = "UIKit"
   s.requires_arc = true
